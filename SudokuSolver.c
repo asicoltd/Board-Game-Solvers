@@ -38,6 +38,8 @@ int solveSudoku(int sud[9][9]) {
 }
 
 int main() {
+    printf("\nGive Sudoku 9x9 Problem like this ( 0 means blank):\n");
+    printf("0 0 1 0 0 0 0 0 0\n3 0 7 6 0 5 1 0 9\n0 5 0 0 1 0 0 8 0\n0 7 0 4 0 3 0 1 0\n0 0 9 0 0 0 5 0 0\n0 1 0 9 0 8 0 7 0\n0 4 0 0 2 0 0 6 0\n1 0 8 5 0 6 3 0 7\n0 0 0 0 0 0 0 0 0\n");
     int sud[9][9];
     for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 9; j++) {
